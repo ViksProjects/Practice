@@ -3,14 +3,15 @@ package Intial;
 import java.util.*;
 
 
-public class GeneralCoding {
-
-	public static void main(String[] args) {
+public abstract class GeneralCoding implements SampleIngterface {
+	
+	
+	public void copy() {
 		// TODO Auto-generated method stub
-		
-		}
-		
-
+		System.out.println("this is in Abstract class");
 	}
+	
+	
+}
 
 
